@@ -8,6 +8,10 @@
     margin: 20px 10px 20px 10px;
 }
 
+#test-list > li {
+    margin-top: 20px;
+}
+
 /* Navbar */
 nav {
     height: 52px;
@@ -26,6 +30,10 @@ nav {
 
 #nav-title {
     margin-left: 5%;
+}
+
+#nav-title > h1 > a {
+    color: black;
 }
 
 #nav-items {
@@ -151,7 +159,7 @@ footer {
 }
 
 /* Ads */
-#ad_leaderboard, #ad_footer {
+#ad_leaderboard, #ad_footer, #ad_infeed {
     height: 120px;
     margin: 5px;
     display: flex;
@@ -159,7 +167,7 @@ footer {
     align-items: center;
 }
 
-#leaderboard_container, #footer_container {
+#leaderboard_container, #footer_container, #infeed_container {
     height: 90px;
     width: 728px;
     background-color: lightgray;

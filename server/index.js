@@ -18,6 +18,10 @@ app.get('/df', (req,res) => {
     res.sendFile(path.join(__dirname, '..', 'public/views/directFriendly.html'))
 })
 
+app.get('/dfIAB', (req,res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/views/directIABFriendly.html'))
+})
+
 //500 error handling
 app.use(function (err, req, res, next) {
     console.error(err)
