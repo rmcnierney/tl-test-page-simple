@@ -26,6 +26,10 @@ app.get('/pixalate', (req,res) => {
   res.sendFile(path.join(__dirname, '..', 'public/views/directFriendlyPixalate.html'))
 })
 
+app.get('/safeframe', (req,res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/views/directIABSafeFrame.html'))
+})
+
 //500 error handling
 app.use(function (err, req, res, next) {
     console.error(err)
