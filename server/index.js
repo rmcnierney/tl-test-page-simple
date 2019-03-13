@@ -30,6 +30,10 @@ app.get('/safeframe', (req,res) => {
   res.sendFile(path.join(__dirname, '..', 'public/views/directIABSafeFrame.html'))
 })
 
+app.get('/safeframeMulti', (req,res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/views/directIABSafeFrameMulti.html'))
+})
+
 //500 error handling
 app.use(function (err, req, res, next) {
     console.error(err)

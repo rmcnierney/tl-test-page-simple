@@ -148,6 +148,26 @@ main {
 
 /* Rail */
 
+/* Latest Stories Small */
+#latest-story-small {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#latest-content-small {
+    padding-left: 30px;
+}
+
+#latest-img-small > img {
+    max-width: 100px;
+    max-height: 67px;
+}
+
+#latest-heading-small {
+    font-weight: 700;
+    font-size: 14px;
+}
 
 /* Footer */
 footer {
