@@ -187,9 +187,26 @@ footer {
     align-items: center;
 }
 
+#ad_footer_970x250 {
+    height: 325px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #leaderboard_container, #footer_container, #infeed_container {
     height: 90px;
     width: 728px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_container_970x250 {
+    height: 250px;
+    width: 970px;
     background-color: lightgray;
     display: flex;
     justify-content: center;

@@ -34,6 +34,10 @@ app.get('/safeframeMulti', (req,res) => {
   res.sendFile(path.join(__dirname, '..', 'public/views/directIABSafeFrameMulti.html'))
 })
 
+app.get('/safeframeBTF', (req,res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/views/directIABSafeFrameBTF.html'))
+})
+
 //500 error handling
 app.use(function (err, req, res, next) {
     console.error(err)
