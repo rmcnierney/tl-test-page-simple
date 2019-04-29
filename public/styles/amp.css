@@ -1,0 +1,12 @@
+/* Main Page View */
+*, body {
+    margin: 0;
+}
+
+#test-types {
+    margin: 20px 10px 20px 10px;
+}
+
+#test-list > li {
+    margin-top: 20px;
+}

@@ -38,6 +38,10 @@ app.get('/safeframeBTF', (req,res) => {
   res.sendFile(path.join(__dirname, '..', 'public/views/directIABSafeFrameBTF.html'))
 })
 
+app.get('/amp', (req,res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/views/directAMP.html'))
+})
+
 //500 error handling
 app.use(function (err, req, res, next) {
     console.error(err)
