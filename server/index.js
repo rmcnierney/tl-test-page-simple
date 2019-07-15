@@ -42,6 +42,10 @@ app.get('/amp', (req,res) => {
   res.sendFile(path.join(__dirname, '..', 'public/views/directAMP.html'))
 })
 
+app.get('/postMessage', (req,res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/views/postMessage.html'))
+})
+
 //500 error handling
 app.use(function (err, req, res, next) {
     console.error(err)
